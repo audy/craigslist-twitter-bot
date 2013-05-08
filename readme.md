@@ -5,6 +5,27 @@ are added.
 
 By Austin G. Davis-Richardson
 
+## How Do?
+
+So you want to run your own Craigslist Twitter bot, eh?
+
+Assuming you already know how to use a computer:
+
+```
+git clone https://github.com/audy/craigslist
+cd craigslist
+bundle
+
+# run the bot
+# the URL that gets scraped is hard-coded in bot.rb
+# I haven't tested it on any other pages.
+./bot.rb
+```
+
+Assuming you don't know how to use a computer:
+
+Buy me a coffee and I'll show you how to do it.
+
 ## License
 
 The MIT License (MIT)
