@@ -1,7 +1,8 @@
 # CraigslistBot
 
 A Twitter bot that scrapes a Craigslist page and tweets when new posts
-are added.
+are added. Currently tweeting about
+[free stuff in Gainesville, FL](http://twitter.com/gvillejunk)
 
 By Austin G. Davis-Richardson
 
@@ -24,7 +25,7 @@ bundle
 
 ### Assuming you don't know how to use a computer:
 
-Buy me a coffee and I'll show you how to do it.
+[Buy me a coffee](http://goo.gl/maps/akdnw) and I will teach you how.
 
 ## License
 
