@@ -50,7 +50,7 @@ class CraigslistBot
     loop do
       update = grab_post
       if update
-        msg = "#{update.content}, #{update[:href]}"
+        msg = "#{update.content} - http://gainesville.craigslist.org#{update[:href]}"
         tweet msg
         $stderr.puts msg
       end

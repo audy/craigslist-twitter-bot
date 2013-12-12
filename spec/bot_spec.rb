@@ -13,4 +13,8 @@ describe CraigslistBot do
     post.content.should_not == ''
   end
 
+  it 'can tweet a tweet' do
+    tweet "@heyaudy test #{rand(0...10000)}"
+  end
+
 end
