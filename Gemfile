@@ -1,8 +1,7 @@
 source :rubygems
 
 gem 'craigslist'
-#gem 'chatterbot', :require => 'chatterbot/dsl', :git => 'https://github.com/muffinista/chatterbot.git'
-gem 'json', '~> 1.7.7'
+gem 'chatterbot', :require => 'chatterbot/dsl', :git => 'https://github.com/muffinista/chatterbot.git'
 gem 'foreman'
 
 group :development do
