@@ -1,4 +1,4 @@
-# CraigslistBot
+# craigslist-twitter-bot
 
 A Twitter bot that scrapes a Craigslist page and tweets when new posts
 are added. Currently tweeting about
