@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'craigslist.rb'))
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'craigslistbot.rb'))
 
 
 URL = 'http://gainesville.craigslist.org/zip/'

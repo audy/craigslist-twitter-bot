@@ -1,20 +1,12 @@
 require 'spec_helper'
 
 describe CraigslistBot do
-  let(:bot) { CraigslistBot.new :url => 'http://gainesville.craigslist.org/zip/' }
-  let(:post) { bot.grab_post }
+  let(:bot) { CraigslistBot.new :category => 'free' , :city => 'gainesville' }
+  let(:post) { bot.latest }
 
-  it 'should grab the latest post from craigslist with a URL' do
-    post[:href].should_not be_nil
-  end
-
-  it 'should grab the latest post from craigslist with content' do
-    post.content.should_not be_nil
-    post.content.should_not == ''
-  end
-
-  it 'can tweet a tweet' do
-    tweet "@heyaudy test #{rand(0...10000)}"
+  it 'should get the latest post title' do
+    post['text'].should_not be_nil
+    post['text'].should_not == ''
   end
 
 end
