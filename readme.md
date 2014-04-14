@@ -10,8 +10,6 @@ By Austin G. Davis-Richardson
 
 So you want to run your own Craigslist Twitter bot, eh?
 
-### Assuming you already know how to use a computer:
-
 ```
 git clone https://github.com/audy/craigslist
 cd craigslist
@@ -23,7 +21,7 @@ bundle
 ./bot.rb
 ```
 
-### Assuming you don't know how to use a computer:
+### huh?
 
 [Buy me a coffee](http://goo.gl/maps/akdnw) and I will teach you how.
 
