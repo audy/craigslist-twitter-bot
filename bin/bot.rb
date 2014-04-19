@@ -8,5 +8,5 @@ URL = 'http://gainesville.craigslist.org/zip/'
 puts 'bot running, type CTRL-C to stop'
 puts "watching #{URL}"
 
-craigslist_bot = CraigslistBot.new :url => URL
+craigslist_bot = CraigslistBot.new :city => 'gainesville', :category => 'free'
 craigslist_bot.monitor!
