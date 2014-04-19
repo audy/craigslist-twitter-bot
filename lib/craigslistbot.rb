@@ -11,7 +11,7 @@ class CraigslistBot
   def initialize(args={})
     @city = args[:city]
     @category = args[:category]
-    @delay = args[:delay] || 2 # seconds
+    @delay = args[:delay] || 240 # seconds
     @max = args[:max] || 3 # max new things to tweet at once
     @cl = Craigslist.city :gainesville
     @first_run = true
