@@ -12,15 +12,15 @@ By Austin G. Davis-Richardson
 
 So you want to run your own Craigslist Twitter bot, eh?
 
+You need Ruby 1.9 with Bundler.
+
 ```
 git clone https://github.com/audy/craigslist
 cd craigslist
 bundle
 
-# run the bot
-# the URL that gets scraped is hard-coded in bot.rb
-# I haven't tested it on any other pages.
-./bot.rb
+# run the bot:
+chatterbot_config=lib/config.yml bundle exec bin/bot.rb
 ```
 
 ### huh?
