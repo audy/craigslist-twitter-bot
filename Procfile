@@ -1,1 +1,1 @@
-bot: chatterbot_config=lib/config.yml bundle exec bin/bot.rb
+bot: bundle exec bin/bot.rb
