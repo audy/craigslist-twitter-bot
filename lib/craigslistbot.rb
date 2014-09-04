@@ -14,6 +14,8 @@ class CraigslistBot
     @delay = args[:delay] || 240 # seconds
     @max = args[:max] || 3 # max new things to tweet at once
     @cl = Craigslist.city :gainesville
+    # make sure twitter works
+    puts "I have #{followers.size} followers (and Twitter API is working)"
     @first_run = true
   end
 
