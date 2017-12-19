@@ -21,6 +21,8 @@ bundle
 
 # run the bot:
 chatterbot_config=lib/config.yml bundle exec bin/bot.rb
+
+# or docker (see run.sh)
 ```
 
 ### huh?
