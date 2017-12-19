@@ -15,7 +15,7 @@ class CraigslistBot
     @max = args[:max] || 3 # max new things to tweet at once
     @cl = Craigslist.city :gainesville
     # make sure twitter works
-    puts "I have #{followers.size} followers (and Twitter API is working)"
+    $stderr.puts "I have #{followers.size} followers (and Twitter API is working)"
     @first_run = true
   end
 
@@ -53,7 +53,7 @@ class CraigslistBot
       post = new_post
       if post
         msg = "#{post['text']} - http://#{@city}.craigslist.org#{post['href']}"
-#        tweet msg
+        tweet msg
         $stderr.puts msg
       end
       sleep @delay

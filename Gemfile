@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'craigslist'
-gem 'chatterbot', :require => 'chatterbot/dsl', :git => 'https://github.com/muffinista/chatterbot.git'
-gem 'foreman'
+gem 'rake'
+gem 'craigslist', git: 'https://github.com/audy/craigslist'
+gem 'chatterbot', :require => 'chatterbot/dsl'
 
 group :development do
   gem 'rspec'
