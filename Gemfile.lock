@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/audy/craigslist
-  revision: b7346373b613997997b905c6b865b60e06810dc4
+  revision: 38edb418b44efd63940e0cacf2e57c507e61e654
   specs:
     craigslist (0.1.1)
-      nokogiri (~> 1.6.0)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
@@ -36,11 +36,11 @@ GEM
       addressable (~> 2.3)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.3.0)
     multipart-post (2.0.0)
     naught (1.1.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     oauth (0.4.7)
     public_suffix (3.0.1)
     rake (12.3.0)
