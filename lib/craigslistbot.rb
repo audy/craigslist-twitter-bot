@@ -52,7 +52,7 @@ class CraigslistBot
     loop do
       post = new_post
       if post
-        msg = "#{post['text']} - http://#{@city}.craigslist.org#{post['href']}"
+        msg = "#{post['text']} - #{post['href']}"
         tweet msg
         $stderr.puts msg
       end
